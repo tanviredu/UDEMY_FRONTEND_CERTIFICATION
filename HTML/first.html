@@ -3,13 +3,91 @@
     <head>
         <title>First Html</title>
     </head>
+    <meta charset="UTF-8">
     <body>
         <h1>This is a Test</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perferendis cum nulla optio beatae ipsa consequatur, ipsum illo voluptas dolorum. Corrupti aspernatur enim quidem atque esse sunt suscipit similique quis.
         </p>
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis veniam, reiciendis odit vero delectus provident ex labore earum libero, distinctio in inventore cum eligendi praesentium est? Facilis ipsam cumque animi?
+            <!-- do not use the bold
+            use the strong b is depricated -->
+            <strong> Lorem ipsum dolor sit </strong>, amet consectetur adipisicing elit. Nobis veniam, reiciendis odit vero delectus provident ex labore earum libero, distinctio in inventore cum eligendi praesentium est? Facilis ipsam cumque animi?
         </p>
+        <!-- the b tag and the i tag is depricated
+        so it will not be used insted we will use the stong and the em tag -->
+        <p> <strong> <em> ipsum dolor sit amet consectetur</em></strong> adipisicing elit. Molestiae, repellendus doloremque maxime cumque, cum natus velit optio animi non veritatis iste. Commodi repellendus eaque ab ex beatae, cumque enim iure!</p>
+
+        <div class="UnorderedList">
+            <h2>My Favourate Bands In Unordered List</h2>
+            <!-- this is a unordered list -->
+            <ul>
+                <li>Artcell</li>
+                <li>Linkin park</li>
+                <li>Queen</li>
+                <li>Pink Floyed</li>
+                <!-- we can use the nested list-->
+                <!-- this is  anested list -->
+                <ul>
+                    <h2>Rap Band</h2>
+                    <li>Li wane</li>
+                    <li>Eminem</li>
+                    <li>Azuna</li>
+                    <li>Daddy Yankke</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="orederedList">
+            <h2>My favourate Bands in Ordered List</h2>
+            <ol>
+                <li>Artcell</li>
+                <li>Linkkin Park</li>
+                <li>Queen</li>
+                <li>Pink Floued</li>
+                <ol>
+                    <h2>Rap Band</h2>
+                    <!-- from here the counting will
+                    start again -->
+                    <li>Eminem</li>
+                    <li>Li wane</li>
+                    <li>Azuna</li>
+                    <li>Daddy Yankee</li>
+                </ol>
+            </ol>
+        </div>
+        <div class="Image">
+            <!-- the image tag works with the cdn and the local file too -->
+            <img src="https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U" alt="dog" width="300px" height="300px">
+            <!-- resize the image with the width and height -->
+            <!-- adding nothing will create  afull width and height -->
+
+        </div>
+        <div class="hyperlinking_an_external_page">
+            <!-- linking from pag e to page -->
+            <!-- you can both use the relative and absolute link -->
+            <!-- external page needs absolute link -->
+            <!-- if you use page if your own page then you use the relative link -->
+            <p><strong><a href="https://www.google.com">Clck here to go google</a></strong></p>
+            <!-- open in new tab -->
+            <!-- this target="_blank" will create an absolute the link in a  new tab -->
+            <p><a href="https://www.google.com" target="_blank" >Go to Google with another tab</a></p>
+
+        </div>
+        <div class="Email_address">
+            <!-- this mailto will open the installed mail client in your computer -->
+            <a href="mailto:tanviredu2018@gmail.com">
+                <p><strong>Email To the admin </strong></p>
+            </a>
+        </div>
+
+        <div class="hyperlinking_file">
+            <!-- this will be a relative url -->
+            <a href="asset/cv.pdf">
+                <strong>click to get the pdf file thats a cv</strong>
+            </a>
+
+        </div>
+
+
     </body>
 </html>
