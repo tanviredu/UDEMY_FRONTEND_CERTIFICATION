@@ -1,0 +1,57 @@
+.FirstClass{
+    font-family: monospace;
+    font-size: 18pt;
+    color: cadetblue;
+    width:350px;
+    border-left: solid 7px red;
+    font-weight:normal ;
+    background-color: beige;
+    /* remember padding ha[pens inside the box 
+        margin happen outside the box
+    */
+    margin: 10px;
+    padding:20px;
+ 
+    float: left;
+    
+
+}
+.SecondClass{
+    font-family: monospace;
+    font-size: 18pt;
+    color: cadetblue;
+    width:400px;
+    border-left: solid 5px red;
+    font-weight: bolder;
+    background-color: beige;
+    /* remember padding ha[pens inside the box 
+        margin happen outside the box
+    */
+    padding:10px;
+    margin: 10px;
+    
+    
+
+}
+.row{
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-style: italic;
+    
+}
+
+/* applying style sheet to the 
+entire body tag */
+body{
+    background: url("./background/bg.png") ;
+}
+
+/* now chaing the link style with dirrectly calling 
+the tag */
+a:hover{
+    color:yellowgreen;
+    font-weight: bold;
+    /* changing the underline */
+    text-decoration: underline;
+}
